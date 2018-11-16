@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "2";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -31,4 +31,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  });
 
  
-client.login(process.env.BOT_TOKEN);"NTEzMDI5NjQwMTgxNTE0MjQz.DtCEqQ.OZcuBGc_Lu_zizWEt9PCm3EM9FU"
+client.login(process.env.BOT_TOKEN);"NTEzMDMwOTgwNjMwNjA5OTU0.DtCNGA.XyXT0v4hsq5L5RY3Qpw_tWS-gGI"
