@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2";
+var prefix = "3";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -10,7 +10,7 @@ client.on('ready', async() => {
 var server = "512945089799258142"; // ايدي السررفر
 var channel = "512945137354276876";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
+    client.guilds.get(server).channels.get(channel).send('**Drggam , Drgggm , Dream , Drggggggggm , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
 })
 
@@ -31,4 +31,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  });
 
  
-client.login(process.env.BOT_TOKEN);"NTEzMDMwOTgwNjMwNjA5OTU0.DtCNGA.XyXT0v4hsq5L5RY3Qpw_tWS-gGI"
+client.login(process.env.BOT_TOKEN);"NTEzMDQwMTc2Mjc3MjI1NDcy.DtCN8Q.nbZLlB8hYinuqXdzv7muQifIpIY"
